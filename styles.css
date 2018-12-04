@@ -1,0 +1,102 @@
+body {
+    background-image:url(" https://0.s3.envato.com/files/113828923/pv_590.jpg ");
+    background-size:170%;
+    font-family:Times;
+    background-position:top ;
+    background-repeat:no-repeat;
+    font-color:"#CEF6F5";
+}
+#showthnx
+{
+   position:absolute ; 
+   top:100px;
+   padding-left:50px;
+   padding-right:50px;
+}
+#target
+{
+   top:0px;
+   width:150px;
+   position:absolute ;
+   animation-name:movetarget;
+   animation-duration:3s;
+   animation-iteration-count:infinite;
+   animation-direction:alternate;
+   -webkit-animation-duration:3s;
+   -webkit-animation-name:movetarget;
+   -webkit-animation-iteration-count:infinite;
+   -webkit-animation-direction:alternate;
+}
+#me
+{
+width:100px;
+position:absolute;
+top:350px;
+left:120px;
+}
+#fruits
+{
+   width:30px;
+   position:absolute ;
+   top:330px;
+   left:150px;
+   display:none;
+}
+@keyframes movetarget
+{
+   from{margin-left:0%;} 
+   to{margin-left:80%;}
+}
+@-webkit-keyframes movetarget
+{
+ from{margin-left:0%;} 
+ to{margin-left:80%;} 
+}
+#score
+{
+  background-image:url("http://clipart-library.com/data_images/10509.png");
+  background-position:center;
+  font-size:13px;
+  width:80px;
+  border-width:2px;
+  border-style:solid;
+  border-color:brown;
+  padding-left:10px;
+  position:absolute;
+  top:300px;
+  color:#fffdc6;
+}
+#explode
+{
+ top:49px;
+   width:150px;
+   position:absolute;
+   animation-name:movetarget;
+   animation-duration:3s;
+   animation-iteration-count:infinite;
+   animation-direction:alternate;
+   -webkit-animation-duration:3s;
+   -webkit-animation-name:movetarget;
+   -webkit-animation-iteration-count:infinite;
+   -webkit-animation-direction:alternate;
+   visibility:hidden;
+}
+#myname
+{
+    font-weight:bold;
+    position:absolute ;
+    font-color:black;
+    bottom:0px;
+    left:30px;
+    background-image:url("http://catalog.rpmsupplies.com/view/theme/agnes/image/layout/shadows/blur_white.png");
+    padding:5px;
+}
+#about
+{
+   width:50px; 
+   position:absolute;
+   bottom:3px;
+   right:3px;
+   border-style:ridge ;
+   padding:3px;
+}
